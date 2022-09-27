@@ -34,9 +34,9 @@ section#login{
 }
 section#login > div#imagem{
     display: block;
-    background: #5f2c82 url(../imagens/abstrato.jpg) no-repeat;
-    /*box-sizing: cover;*/
-    background-position: bottom right ;
+    background: #5f2c82 url(../imagens/abstrato.jpg)no-repeat ;
+    box-sizing: cover;
+    background-position:  left top ;
     height: 200px;
 }
 section#login > div#formulario {
