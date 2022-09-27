@@ -32,9 +32,15 @@ section#login{
     box-shadow: 0px 0px 10px black;
     overflow: hidden; /* o que estiver fora da borda */
 }
-section#login > div#imagem {
-    background: #5f2c82 url();
-    background-position: top left;
-    box-sizing: cover;
+section#login > div#imagem{
+    display: block;
+    background: #5f2c82 url(../imagens/abstrato.jpg) no-repeat;
+    /*box-sizing: cover;*/
+    background-position: bottom right ;
     height: 200px;
+}
+section#login > div#formulario {
+    display: block;
+    padding: 10px;
+    text-align: justify;
 }
