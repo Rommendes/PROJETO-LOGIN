@@ -31,6 +31,9 @@ section#login{
     border-radius: 20px;
     box-shadow: 0px 0px 10px black;
     overflow: hidden; /* o que estiver fora da borda */
+
+    transition: width 0.3s, heigth 0.3s;
+    transition-timing-function: ease; /* Suaviza a animação da transição */
 }
 section#login > div#imagem{
     display: block;
