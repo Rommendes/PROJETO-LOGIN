@@ -27,7 +27,7 @@ section#login{
     transform: translate(-50%, -50%);/*metade vai para direita e metade para a esquerda...ficando sempre no meio da tela */
     background-color: white;
     width: 250px;
-    height: 500px ;
+    height: 515px ;/* ALTURA */
     border-radius: 20px;
     box-shadow: 0px 0px 10px black;
     overflow: hidden; /* o que estiver fora da borda */
@@ -58,4 +58,50 @@ div#formulario > h1 {
 div#formulario > p {
     font-size: 0.8em;
     text-align: justify; 
+}
+form > div.campo {
+    background-color: #5f2c82;
+    display: block;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    margin: 5px 0px;
+}
+div.campo > label{/* DESAPARECE AS PALAVRAS LOGIN E SENHA */
+    display: none;
+}
+/* BOTÃO */
+form > input[type= submit]{
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: #49a09d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+form > input[type= submit]:hover{
+    background-color: #0e2827;
+}
+form > a.botao{
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    padding-top: 7px;
+    margin-top: 5px;
+    background-color: white;
+    border: 1px solid #49a09d;
+    border-radius: 5px;
+    text-decoration: none; /* tira o sublinhado de links */
+    color: #0e2827;
+}
+form > a.botao:hover {
+    background-color:#49a09d ;
+}
+form > a > span {
+    font-size: 00.8em;
 }
