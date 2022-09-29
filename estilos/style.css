@@ -45,11 +45,11 @@ section#login > div#imagem{
 section#login > div#formulario {
     display: block;
     padding: 10px;
-   
+    
 }
 section#login > div#formulario {
     float: left;
-    width: 50%;
+    width: 100%;
 }
 div#formulario > h1 {
     text-align: center;
@@ -57,4 +57,5 @@ div#formulario > h1 {
 }
 div#formulario > p {
     font-size: 0.8em;
+    text-align: justify; 
 }

@@ -9,11 +9,6 @@ pequenas telas:até 600px
 grandes telas
 -TV:1201 min*/
 @media screen and (min-width: 600px)and (max-width: 768px){
-    div#formulario {
-        text-align: justify;
-        width: 210;
-        height: 500;
-    }
     
 }
 @media  screen and (min-width: 768px)and (max-width: 992px) {
@@ -33,6 +28,12 @@ grandes telas
   section#login > div#formulario {
     float: right;
     width: 70%;
+  }
+  div#formulario > p{
+    font-size: 1.2em;
+  }
+  div#formulario > h1{
+    font-size: 1.8em;
   }
 
 }
@@ -54,6 +55,7 @@ grandes telas
     }
     div#formulario > p{
         font-size: 1.2em;
+        text-align: justify;
        
     }
     div#formulario > h1 {
