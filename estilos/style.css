@@ -24,16 +24,18 @@ section#login{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);/*metade vai para direita e metade para a esquerda...ficando sempre no meio da tela */
+    
     background-color: white;
     width: 250px;
     height: 515px ;/* ALTURA */
     border-radius: 20px;
     box-shadow: 0px 0px 10px black;
     overflow: hidden; /* o que estiver fora da borda */
-
+    
+    transform: translate(-50%, -50%);/*metade vai para direita e metade para a esquerda...ficando sempre no meio da tela */
     transition: width 0.3s, heigth 0.3s;
     transition-timing-function: ease; /* Suaviza a animação da transição */
+    
 }
 section#login > div#imagem{
     display: block;
@@ -58,19 +60,46 @@ div#formulario > h1 {
 div#formulario > p {
     font-size: 0.8em;
     text-align: justify; 
+    margin: 10px 0px;
+    
 }
 form > div.campo {
     background-color: #5f2c82;
+    border: 4px solid #5f2c82;
     display: block;
     width: 100%;
     height: 40px;
-    border-radius: 5px;
-    margin: 5px 0px;
+    border-radius: 8px;
+    margin: 4px 0px;
 }
-div.campo > label{/* DESAPARECE AS PALAVRAS LOGIN E SENHA */
+div.campo > label{/* DESAPARECE AS PALAVRAS LOGIN E SENHA - TAG LABEL */
     display: none;
 }
-/* BOTÃO */
+div.campo > span{
+    color: white;
+    /*background-color: black;*/
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+    margin-top: 0px;
+    margin-bottom: 2px;
+    
+}
+div.campo > input {
+    background-color: #a7f8f6 ;
+    font-size: 1em;
+    width:calc(100% - 44px);/*ajusta a largura */
+    height: 100%;
+    border: 0px;
+    border-radius: 8px;
+    padding: 4px;
+    margin: 0px 45px;
+    transform: translateY(-44px);/*faz subir */
+}
+div.campo > input:focus-within{
+    background-color: white;/*Deixa o campo do formulário (input) branco qdo vou digitar */
+}
+/*BOTÃO */
 form > input[type= submit]{
     display: block;
     font-size: 1em;
