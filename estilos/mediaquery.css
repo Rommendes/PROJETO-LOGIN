@@ -38,7 +38,7 @@ grandes telas
   }
 
 }
-@media screen and (min-width: 992px)/* CONFIGURAÇÃO PARA desctop */{
+@media screen and (min-width: 992px)/* CONFIGURAÇÃO PARA desktop */{
     body {
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
     }
